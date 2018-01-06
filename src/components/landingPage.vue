@@ -1,28 +1,17 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
-      <br>
-      <li><a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a></li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li><a href="http://router.vuejs.org/" target="_blank">vue-router</a></li>
-      <li><a href="http://vuex.vuejs.org/" target="_blank">vuex</a></li>
-      <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
-    </ul>
+  <div>
+    <h1>Under Construction</h1>
+    <div>
+      <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:cosmin.simion@boulevard.rentals">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
+      <p>&mdash; Boulevard Rentals Team</p>
+    </div>
   </div>
+  
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'landingPage',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
@@ -31,20 +20,15 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style>
+#app{
+    body { text-align: center; padding: 150px; }
+    h1 { font-size: 50px; }
+    body { font: 20px Helvetica, sans-serif; color: #333; }
+    article { display: block; text-align: left; width: 650px; margin: 0 auto; }
+    a { color: #dc8100; text-decoration: none; }
+    a:hover { color: #333; text-decoration: none; }
+    }
 </style>
+
+
