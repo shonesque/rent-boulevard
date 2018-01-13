@@ -1,17 +1,26 @@
 <template>
   <div>
-    <div class="waves-effect waves-light btn">Sign up</div>
-    <div class="waves-effect waves-light btn">Sign in</div>
-    <div class="waves-effect waves-light btn">Search</div>
-    <div class="waves-effect waves-light btn">Add a new location</div>
+    <!-- Routes to the different pages
+    If you need more routes go the the router folder and add a new object with the desired route -->
+    <div class="waves-effect waves-light btn">
+      <router-link to="/register">Register</router-link>
+    </div>
+    <div class="waves-effect waves-light btn">
+      <router-link to="/login">Log In</router-link>
+    </div>
+    <div class="waves-effect waves-light btn">
+      <router-link to="/search">Search</router-link>
+    </div>
+    <div class="waves-effect waves-light btn">
+      <router-link to="/addLocation">Add new location</router-link>
+    </div>
+    
     <h1>Under Construction</h1>
     <div>
       <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:cosmin.simion@boulevard.rentals">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
+      <p>&mdash; Boulevard Rentals &copy; Team</p>
     </div>
     <p id="countdown"></p>
-    <div>
-      <p>&mdash; Boulevard Rentals Team &copy; 2018</p>
-      </div>
   </div>
   
 </template>
@@ -26,6 +35,7 @@ export default {
   }
 }
 </script>
+
 
 
 <script>
