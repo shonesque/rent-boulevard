@@ -7,9 +7,11 @@
     <h1>Under Construction</h1>
     <div>
       <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:cosmin.simion@boulevard.rentals">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
-      <p>&mdash; Boulevard Rentals &copy; Team</p>
     </div>
     <p id="countdown"></p>
+    <div>
+      <p>&mdash; Boulevard Rentals Team &copy; 2018</p>
+      </div>
   </div>
   
 </template>
@@ -24,7 +26,6 @@ export default {
   }
 }
 </script>
-
 
 
 <script>
