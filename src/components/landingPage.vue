@@ -68,3 +68,7 @@ var x = setInterval(function() {
     }
 }, 1000);
 </script>
+
+<style scoped> 
+
+</style>

@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import landingPage from '@/components/landingPage'
 import searchPage from '@/components/searchPage'
 import addNewLocation from '@/components/addNewLocation'
+import mapTemplate from '@/templates/customMap'
 
 Vue.use(Router)
 
@@ -25,3 +26,4 @@ export default new Router({
     }
   ]
 })
+
