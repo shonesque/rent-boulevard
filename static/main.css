@@ -15,11 +15,15 @@ h1 {
 }
 
 #app a {
-    color: #dc8100; text-decoration: none; 
+    color: #fff; text-decoration: none; 
     }
 
 #app a:hover {
     color: #333; text-decoration: none;
+}
+
+#content a {
+    color:#dc8100;
 }
 
 article { 

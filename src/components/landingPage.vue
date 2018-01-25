@@ -16,7 +16,7 @@
     </div>
     
     <h1>Under Construction</h1>
-    <div>
+    <div id="content">
       <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="mailto:cosmin.simion@boulevard.rentals">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
       <p>&mdash; Boulevard Rentals &copy; Team</p>
     </div>
@@ -40,7 +40,7 @@ export default {
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 17, 2018 20:00:00").getTime();
+var countDownDate = new Date("Feb 12, 2018 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
